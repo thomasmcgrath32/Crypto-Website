@@ -1,0 +1,309 @@
+
+.header-container {
+  width:auto;
+  height: 50px;
+  background-color: transparent;
+  border-bottom: blue 3px solid;
+}
+
+header .header-container img{
+  padding-top:8px;
+  padding-bottom:1px;
+  padding-left:10px;
+}
+
+.showcase {
+  text-align:center;
+  margin:auto;
+  margin:auto;
+}
+
+header nav {
+  float:right;
+  color: white;
+  font-weight:bold;
+  font-family:monospace;
+  font-size:18px;
+  padding-right:5px;
+  text-decoration:none;
+}
+
+.header-container input[type=text] {
+
+  background-color:transparent;
+  color:white;
+  padding-right:40px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+}
+.highlight {
+  color: white;
+  font-weight:bold;
+  font-family:monospace;
+  padding-left:5px;
+  float:left;
+  padding-top:10px;
+
+}
+header a {
+  color:white;
+  font-family:monospace;
+  padding-right:5px;
+  padding-left:10px;
+
+}
+
+
+#chart {
+  background-color: white;
+  margin-left:12.5%;
+  margin-right:12.5%;
+  height:600px;
+  margin-bottom:40px;
+  font-family:monospace;
+  border-radius:7px;
+  border-color: black 3px solid;
+}
+
+.boxes a {
+   color:white;
+}
+
+.boxes a:hover {
+  color:grey;
+}
+
+.line {
+  margin-left:12.5%;
+  margin-right:12.5%;
+  height:.05px;
+  background-color:blue;
+  padding:2px;
+}
+
+#chart .live-chart {
+  text-align:center;
+  padding:200px;
+}
+
+header a:hover {
+  color:grey;
+}
+
+#showcase {
+  color:white;
+  text-align:center;
+ padding:10px;
+
+}
+#boxes {
+  padding-top: 40px;
+  color:white;
+  padding-right:8%;
+  padding-left:8%;
+
+
+}
+#boxes .boxes {
+  text-align:center;
+  width:25%;
+  float:left;
+  padding-bottom:50px;
+  color:white;
+}
+
+.hide{
+  display:none;
+}
+
+.space {
+  margin-top:600px;
+  text-align: center;
+color:white;
+}
+
+.txt-type {
+  font-size:30px;
+
+  padding-top:1000px;
+}
+
+.btc {
+  color:black;
+  font-size:15px;
+  font-weight:bold;
+  text-align:left;
+  padding-top:15px;
+}
+.eth {
+  color:black;
+  font-size:15px;
+  font-weight:bold;
+  text-align:left;
+  padding-top:25px;
+}
+.ltc {
+  color:black;
+  font-size:15px;
+  font-weight:bold;
+  text-align:left;
+  padding-top:25px;
+}
+.uni {
+  color:black;
+  font-size:15px;
+  font-weight:bold;
+  text-align:left;
+  padding-top:25px;
+}
+.ada {
+  color:black;
+  font-size:15px;
+  font-weight:bold;
+  text-align:left;
+  padding-top:25px;
+}
+.0x {
+  color:black;
+  font-size:15px;
+  font-weight:bold;
+  text-align:left;
+  padding-top:25px;
+}
+.link {
+  color:black;
+  font-size:15px;
+  font-weight:bold;
+  text-align:left;
+  padding-top:25px;
+}
+.doge {
+  color:black;
+  font-size:15px;
+  font-weight:bold;
+  text-align:left;
+  padding-top:25px;
+}
+.zec {
+  color:black;
+  font-size:15px;
+  font-weight:bold;
+  text-align:left;
+  padding-top:25px;
+}
+.tezos {
+  color:black;
+  font-size:15px;
+  font-weight:bold;
+  text-align:left;
+  padding-top:25px;
+}
+.bat {
+  color:black;
+  font-size:15px;
+  font-weight:bold;
+  text-align:left;
+  padding-top:25px;
+}
+.dot {
+  color:black;
+  font-size:15px;
+  font-weight:bold;
+  text-align:left;
+  padding-top:25px;
+}
+.bnb {
+  color:black;
+  font-size:15px;
+  font-weight:bold;
+  text-align:left;
+  padding-top:25px;
+}
+#sidebar {
+  background-color:white;
+  color:black;
+  font-weight:bold;
+  float:right;
+  margin-right:140px;
+  text-align:left;
+  padding-left:8px;
+  border-radius:8px;
+  width:200px;
+  height:650px;
+
+}
+
+.center {
+  padding-right:8px;
+  text-align:center;
+  text-decoration: underline;
+}
+
+.sub {
+  text-align:center;
+  padding-right:40px;
+  padding-top:50px;
+  color:grey;
+  text-transform: italic;
+}
+
+#news {
+margin-top:60px;
+  height:800px;
+  margin-left:20px;
+}
+
+.news-flow {
+  padding-top:5px;
+  margin-left:140px;
+  padding-left:15px;
+  background-color:white;
+  color:black;
+  width:60%;
+  height:300px;
+  float:left;
+  border-radius:8px;
+  margin-top:25px;
+}
+
+.news-summary {
+  float:left;
+  padding-left:10px;
+  color:black;
+  width:600px;
+}
+
+.news-flow-img {
+  float:right;
+  height:100px;
+  padding-right:25px;
+  padding-top:25px;
+}
+
+#resources {
+  margin-top:60px;
+    height:800px;
+    margin-left:20px;
+}
+
+.resource-header {
+  padding-left:120px;
+  color:white;
+  font-size:30px;
+  font-weight:bold;
+}
+
+.resource-boxes {
+
+  padding-top:50px;
+  width:20%;
+  float:left;
+  height:150px;
+  text-align:center;
+  color:white;
+  padding-left:80px;
+
+}

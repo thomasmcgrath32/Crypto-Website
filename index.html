@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<!-- HTML Styling -->
+
+<style>
+body  {
+ background:url('./img/2.jpg');
+ background-size: 100% 100%;
+ padding-top:0;
+ margin-top:0;
+ font-family:monospace;
+}
+</style>
+
+<!-- Head -->
+
+<head>
+  <meta charset = "utf-8">
+  <meta name = "viewport" content = "width = device-width">
+  <meta name = "description" content = "crypto blog">
+  <meta name "keywords" content = "Crypto, Bitcoin, Ethereum, Cardano, Charles Hoskinson">
+  <link rel = "stylesheet" name = "style" href = "./css/style.css">
+ <title>Crypto Blog</title>
+ <!-- Search bar -->
+ <script src="./js/search.js"></script>
+
+ <!-- Live Typing -->
+ <script src = "./chart.js"></script>
+
+ <!-- Live Dots -->
+ <script src = "./dotdot.js"></script>
+
+ <!-- Live Prices -->
+ <script src = "btc-price.js"></script>
+
+
+
+</head>
+
+<body>
+<!-- Header -->
+
+<header>
+<div class = "header-container">
+<a href = "index.html"><img src = "./img/unnamed.png" height = "35px" width = "35px"></img></a>
+<nav>
+<ul class = "current">
+  <input id = "searchbar" onkeyup="search_website()" name = "search" type = "text"  placeholder = "Search..." color = "transparent">
+   <a href = "News.html" style="text-decoration:none">News</a>
+   <a href = "analysis.html" style="text-decoration:none">Analysis</a>
+   <a href = "Resources.html" style="text-decoration:none">Resources</a>
+</ul>
+</nav>
+</div>
+</header>
+
+<!-- Introduction -->
+
+<section id = "showcase">
+  <div class = "showcase-img">
+    <span class = "txt-type" data-wait = "3000" data-words= '["Bitcoin","Ethereum","Ripple","Cardano","Litecoin","Chainlink"]'
+    ></span>
+  </div>
+</section>
+
+<!-- Chart -->
+
+<section id = "chart">
+  <div class = "live-chart">
+      <h1><span class = "dot-type" data-w = "3000" data= '["Charts coming soon...."]'
+    ></span></h1>
+
+  </div>
+</section>
+
+<!-- Blue line -->
+
+<section id = "line">
+<div class = "line">
+</div>
+</section>
+
+<!-- Crypto Logos / links -->
+
+<section id = "boxes">
+  <div class = "boxes">
+    <a href = "bitcoin.html" style="text-decoration:none"><img src = "./img/BC_Logo_.png" height = "100px" width = "100px" alt = "Image not found">
+    </img></a>
+    <h2><a href = "bitcoin.html" style="text-decoration:none">Bitcoin</a></h2>
+  </div>
+  <div class = "boxes">
+    <a href = "chainlink.html" style="text-decoration:none"><img src = "./img/chainlink-link-logo.png" height = "100px" width = "100px" alt = "Image not found">
+    </img></a>
+    <h2><a href = "chainlink.html" style="text-decoration:none">Chainlink</a></h2>
+  </div>
+  <div class = "boxes">
+    <a href = "dogecoin.html" style="text-decoration:none"><img src = "./img/9b0910ff733c6947d778ee6fb5b5e254.png" height = "100px" width = "100px" alt = "Image not found">
+    </img></a>
+    <h2><a href = "dogecoin.html" style="text-decoration:none">Dogecoin</a></h2>
+  </div>
+  <div class = "boxes">
+    <a href = "ethereum.html" style="text-decoration:none"><img src = "./img/ethereum1.png" height = "100px" width = "100px" alt = "Image not found">
+    </img></a>
+    <h2><a href = "ethereum.html" style="text-decoration:none">Ethereum</a></h2>
+  </div>
+  <div class = "boxes">
+  <a href = "litecoin.html" style="text-decoration:none"><img src = "./img/litecoin-ltc-logo.png" height = "100px" width = "100px" alt = "Image not found">
+  </img></a>
+    <h2><a href = "litecoin.html" style="text-decoration:none">Litecoin</a></h2>
+  </div>
+  <div class = "boxes">
+    <a href = "zcash.html" style="text-decoration:none"><img src = "./img/Zcash-ZEC-icon.png" height = "100px" width = "100px" alt = "Image not found">
+    </img></a>
+    <h2><a href = "zcash.html" style="text-decoration:none">Zcash</a></h2>
+  </div>
+</section>
+
+<section id = "boxes">
+  <div class = "boxes">
+    <a href = "uniswap.html" style="text-decoration:none"><img src = "./img/uniswap-uni-logo.png" height = "100px" width = "100px" alt = "Image not found">
+    </img></a>
+    <h2><a href = "uniswap.html" style="text-decoration:none">Uniswap</a></h2>
+  </div>
+  <div class = "boxes">
+    <a href = "cardano.html" style="text-decoration:none"><img src = "./img/a7872fcc56858227ffa183256a5d55e1.webp" height = "100px" width = "100px" alt = "Image not found">
+    </img></a>
+    <h2><a href = "cardano.html" style="text-decoration:none">Cardano</a></h2>
+  </div>
+  <div class = "boxes">
+    <a href = "tezos.html" style="text-decoration:none"><img src = "./img/tezos-xtz-logo.png" height = "100px" width = "100px" alt = "Image not found">
+    </img></a>
+    <h2><a href = "tezos.html" style="text-decoration:none">Tezos</a></h2>
+  </div>
+  <div class = "boxes">
+    <a href = "polkadot.html" style="text-decoration:none"><img src = "./img/polkadot-new-dot-logo.png" height = "100px" width = "100px" alt = "Image not found">
+    </img></a>
+    <h2><a href = "polkadot.html" style="text-decoration:none">Polkadot</a></h2>
+  </div>
+  <div class = "boxes">
+    <a href = "bat.html" style="text-decoration:none"><img src = "./img/1200px-Brave_Basic_Attention_Token_(BAT)_Logo.svg.png" height = "100px" width = "100px" alt = "Image not found">
+    </img></a>
+    <h2><a href = "bat.html" style="text-decoration:none">BAT</a></h2>
+  </div>
+  <div class = "boxes">
+    <a href = "0x.html" style="text-decoration:none"><img src = "./img/0x-zrx-logo.svg" height = "100px" width = "100px" alt = "Image not found">
+    </img></a>
+    <h2><a href = "0x.html" style="text-decoration:none">0x</a></h2>
+  </div>
+
+</section>
+
+<div class = "space">
+</div>
+
+
+
+<!-- Footer -->
+
+<section id = "footer">
+  <div class = "space">
+
+  <p>Copyright &copy; 2021 </p>
+</div>
+</section>
+
+<!-- Search Words -->
+<ul>
+  <li class = "hide"><a href="bitcoin.html">Bitcoin</a></li>
+  <li class = "hide"><a href="cardano.hmtl">Cardano</a></li>
+  <li class = "hide"><a href="ethereum.html">Ethereum</a></li>
+  <li class = "hide"><a href="uniswap.html">Uniswap</a></li>
+  <li class = "hide"><a href="tezos.html">Tezos</a></li>
+  <li class = "hide"><a href="litecoin.html">Litecoin</a></li>
+</ul>
+
+
+
+</body>
+</html>
